@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.sidenav').sidenav({edge: "right"});
-    $('.collapsible').collapsible();
+    $('.collapsible').collapsible({inDuration: 500, outDuration: 500});
     $('.tooltipped').tooltip();
     $('select').formSelect();
     $('.datepicker').datepicker({
